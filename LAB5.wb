@@ -1,0 +1,171 @@
+{
+ "cells": [
+  {
+   "kind": 1,
+   "value": "Problem1",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "kind": 2,
+   "value": "\nPlot[x, {x, 0 ,5}]",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"4\" data-out-n=\"3\" data-sub-idx=\"0\" data-output-format=\"Auto\" data-output-is-graphics=\"1\" data-cell-idx=\"1\" data-sub-start=\"1\" data-sub-end=\"1\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[3]=</span></div><div class=\"wl-output-content\"><span class=\"vscode-wolfram-gfx-marker\" style=\"display:none;\"></span><img class=\"vscode-wolfram-svg-output\" data-wl-img=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl_s682dt2jnu8f.svg\" width=\"480\" height=\"301\" src=\"img/LAB5/wl_s682dt2jnu8f.svg\" data-wl-plot=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl2d_vz2bz2gqwyd2.json\" data-wl-plot-src=\"img/LAB5/wl2d_vz2bz2gqwyd2.json\"/></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "(* output: graphics *)\n\nPlot[x, {x, 0 ,5}]",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "f91c83a0-d412-4e8a-a278-2e9eaabd1009"
+    }
+   ],
+   "metadata": {}
+  },
+  {
+   "kind": 1,
+   "value": "Problem2",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "kind": 2,
+   "value": "D[f[t], t]\nD[f[t], {t, 2}] \nf[t_] := α Log[a t] Cos[ω t] Sin[ω t]",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"5\" data-out-n=\"4\" data-sub-idx=\"0\" data-output-format=\"WLLatex\" data-output-is-graphics=\"0\" data-cell-idx=\"4\" data-sub-start=\"0\" data-sub-end=\"0\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[4]=</span></div><div class=\"wl-output-content\"><div class=\"vscode-wolfram-wllatex-prerendered\" data-page-width-em=\"59\" data-latex-b64=\"ZidcbGVmdCh0XHJpZ2h0KQ==\"><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0519em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8019em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">t</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span></span></span></span></span></div></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Out[4]= f'\\left(t\\right)",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "ee815e97-989d-49ac-871a-5dcd9d440895"
+    },
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"6\" data-out-n=\"5\" data-sub-idx=\"1\" data-output-format=\"WLLatex\" data-output-is-graphics=\"0\" data-cell-idx=\"4\" data-sub-start=\"1\" data-sub-end=\"1\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[5]=</span></div><div class=\"wl-output-content\"><div class=\"vscode-wolfram-wllatex-prerendered\" data-page-width-em=\"59\" data-latex-b64=\"ZicnXGxlZnQodFxyaWdodCk=\"><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0519em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8019em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′′</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">t</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span></span></span></span></span></div></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Out[5]= f''\\left(t\\right)",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "c766cb79-e3c9-4f87-aabc-cb8046082091"
+    }
+   ],
+   "metadata": {}
+  },
+  {
+   "kind": 1,
+   "value": "Problem 3",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "kind": 2,
+   "value": "Clear[f]\n\nw[x_] := f[x] g[x] h[x]\nD[w[x], x]\n",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"7\" data-out-n=\"9\" data-sub-idx=\"2\" data-output-format=\"WLLatex\" data-output-is-graphics=\"0\" data-cell-idx=\"6\" data-sub-start=\"3\" data-sub-end=\"3\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[9]=</span></div><div class=\"wl-output-content\"><div class=\"vscode-wolfram-wllatex-prerendered\" data-page-width-em=\"59\" data-latex-b64=\"Z1xsZWZ0KHhccmlnaHQpXCxoXGxlZnQoeFxyaWdodClcLGYnXGxlZnQoeFxyaWdodCkrZlxsZWZ0KHhccmlnaHQpXCxoXGxlZnQoeFxyaWdodClcLGcnXGxlZnQoeFxyaWdodCkrZlxsZWZ0KHhccmlnaHQpXCxnXGxlZnQoeFxyaWdodClcLGgnXGxlZnQoeFxyaWdodCk=\"><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0519em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">g</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">h</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8019em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.0519em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">h</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">g</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8019em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.0519em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">g</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">h</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8019em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose delimcenter\" style=\"top:0em;\">)</span></span></span></span></span></span></div></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Out[9]= g\\left(x\\right)\\,h\\left(x\\right)\\,f'\\left(x\\right)+f\\left(x\\right)\\,h\\left(x\\right)\\,g'\\left(x\\right)+f\\left(x\\right)\\,g\\left(x\\right)\\,h'\\left(x\\right)",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "70a14dbe-43a0-4f6b-943e-2424f9e9683e"
+    }
+   ],
+   "metadata": {}
+  },
+  {
+   "kind": 1,
+   "value": "Problem 4",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "kind": 2,
+   "value": "Clear[t,ϕ]\ng = 9.81;\nl = 10;\nω = Sqrt[g/l];\n\nsol = NDSolve[{ϕ''[t] == -ω^2 Sin[ϕ[t]],ϕ'[0] == 0, ϕ[0] == 30 Degree}, ϕ, {t, 0, 10}]\nPlot[ϕ[x] /. sol, {x, 0, 10} ]",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"8\" data-out-n=\"14\" data-sub-idx=\"4\" data-output-format=\"WLLatex\" data-output-is-graphics=\"0\" data-cell-idx=\"8\" data-sub-start=\"5\" data-sub-end=\"5\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[14]=</span></div><div class=\"wl-output-content\"><div class=\"vscode-wolfram-wllatex-prerendered\" data-page-width-em=\"59\" data-latex-b64=\"XGxlZnRce1xsZWZ0XHtccGhpIFx0byBcbWF0aHJte0ludGVycG9sYXRpbmdGdW5jdGlvbn1cbGVmdFtccmlnaHRdXHJpZ2h0XH1ccmlnaHRcfQ==\"><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">{</span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">{</span><span class=\"mord mathnormal\">ϕ</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mord\"><span class=\"mord mathrm\">InterpolatingFunction</span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\"><span class=\"mopen delimcenter\" style=\"top:0em;\">[</span><span class=\"mclose delimcenter\" style=\"top:0em;\">]</span></span><span class=\"mclose delimcenter\" style=\"top:0em;\">}</span></span><span class=\"mclose delimcenter\" style=\"top:0em;\">}</span></span></span></span></span></span></div></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "Out[14]= \\left\\{\\left\\{\\phi \\to \\mathrm{InterpolatingFunction}\\left[\\right]\\right\\}\\right\\}",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "f3898c50-54d8-4b42-85a1-4580db205279"
+    },
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"9\" data-out-n=\"15\" data-sub-idx=\"5\" data-output-format=\"Auto\" data-output-is-graphics=\"1\" data-cell-idx=\"8\" data-sub-start=\"6\" data-sub-end=\"6\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[15]=</span></div><div class=\"wl-output-content\"><span class=\"vscode-wolfram-gfx-marker\" style=\"display:none;\"></span><img class=\"vscode-wolfram-svg-output\" data-wl-img=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl_ptj87yh1g7d5.svg\" width=\"480\" height=\"285\" src=\"img/LAB5/wl_ptj87yh1g7d5.svg\" data-wl-plot=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl2d_1rxj8vbz6pox9.json\" data-wl-plot-src=\"img/LAB5/wl2d_1rxj8vbz6pox9.json\"/></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "(* output: graphics *)\nClear[t,ϕ]\ng = 9.81;\nl = 10;\nω = Sqrt[g/l];\n\nsol = NDSolve[{ϕ''[t] == -ω^2 Sin[ϕ[t]],ϕ'[0] == 0, ϕ[0] == 30 Degree}, ϕ, {t, 0, 10}]\nPlot[ϕ[x] /. sol, {x, 0, 10} ]",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "c5f9f184-b2bd-4b77-9911-bc36f2207d73"
+    }
+   ],
+   "metadata": {}
+  },
+  {
+   "kind": 1,
+   "value": "Problem 5",
+   "languageId": "markdown",
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "kind": 2,
+   "value": "Graphics3D [{Cylinder[{{0, 0, 0.25},{0, 0, 6}}, 0.3], Cylinder[{{0, 0, 0}, {0, 0, 0.25}}]}]",
+   "languageId": "wolfram",
+   "outputs": [
+    {
+     "items": [
+      {
+       "data": "<div class=\"wl-output-block\"><div class=\"wl-output-header\" style=\"display:flex;align-items:center;gap:6px;width:100%;min-height:22px;\" data-session-epoch=\"744905\" data-output-id=\"10\" data-out-n=\"16\" data-sub-idx=\"0\" data-output-format=\"Auto\" data-output-is-graphics=\"1\" data-cell-idx=\"10\" data-sub-start=\"0\" data-sub-end=\"0\"><span style=\"font-size:10px;color:#888;margin-right:8px;\">Out[16]=</span></div><div class=\"wl-output-content\"><span class=\"vscode-wolfram-gfx-marker\" style=\"display:none;\"></span><img class=\"vscode-wolfram-png-output\" data-wl-img=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl_na1evkx1e7nh.png\" width=\"401\" height=\"864\" src=\"img/LAB5/wl_na1evkx1e7nh.png\" data-wl-mesh=\"/Users/aaron/PHY304-Labs/PHY304-Labs/img/LAB5/wl3d_71rhjvdf6fl1.json\" data-wl-mesh-src=\"img/LAB5/wl3d_71rhjvdf6fl1.json\"/></div></div>",
+       "mime": "x-application/wolfram-language-html"
+      },
+      {
+       "data": "(* output: graphics *)\nGraphics3D [{Cylinder[{{0, 0, 0.25},{0, 0, 6}}, 0.3], Cylinder[{{0, 0, 0}, {0, 0, 0.25}}]}]",
+       "mime": "text/plain"
+      }
+     ],
+     "id": "dcc3192d-05a8-4601-b04c-fa116db9549c"
+    }
+   ],
+   "metadata": {}
+  }
+ ],
+ "metadata": {}
+}
